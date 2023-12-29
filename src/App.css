@@ -1,0 +1,130 @@
+body {
+    /*padding: 50px;*/
+    font-family: monospace;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.gap10 {
+    gap: 10px;
+}
+
+.f-column {
+    flex-direction: column;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.a-content-start {
+    align-content: flex-start;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.space-btw {
+    justify-content: space-between;
+}
+
+.grow1 {
+    flex: 1;
+}
+
+.grow2 {
+    flex: 2;
+}
+
+.grow3 {
+    flex: 3;
+}
+
+.p-50 {
+    padding: 50px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*a {*/
+/*    margin: 10px;*/
+/*}*/
+
+.container {
+    width: 900px;
+}
+
+
+.itemsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-size: 70px;
+    text-align: center;
+    min-height: 100px;
+}
+
+.itemsGrid div {
+    cursor: pointer;
+}
+
+.itemsGrid div:hover {
+   background-color: #f4f3f3;
+}
+
+
+a {
+    margin-right: 10px;
+}
+
+.toolbar {
+    margin-bottom: 50px;
+}
+
+
+.progressWrapper {
+    height: 20px;
+    width: 100%;
+    background-color: #c9c9c9;
+}
+
+.progressWrapper div {
+    height: 100%;
+    width: 60%;
+    background-color: mediumspringgreen;
+}
+
+.mainButton {
+    padding: 15px;
+    color: white;
+    background-color: hotpink;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.mainButton:hover {
+    opacity: 1;
+}
